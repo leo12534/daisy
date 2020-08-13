@@ -25,10 +25,10 @@ body {
 
 /* Bouncy Image Styling */
 
-.img-brand {
+.bouncy-shadow {
 	position: relative;
 }
-.img-brand:after {
+.bouncy-shadow:after {
 	position: absolute;
 	display: block;
 	content: '';
@@ -85,13 +85,13 @@ body {
 }
 
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link::after {
-    content: '';
-    display: block;
+	content: '';
+	display: block;
 	width: 0;
-	margin:0 auto;
-    height: 0.125rem;
-    background: #8a4fff;
-    transition: width .3s;
+	margin: 0 auto;
+	height: 0.125rem;
+	background: #8a4fff;
+	transition: width 0.3s;
 }
 
 #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
@@ -135,8 +135,7 @@ body {
 	}
 	#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
 		width: 50%;
-		margin:0 auto;
-
+		margin: 0 auto;
 	}
 }
 
@@ -185,6 +184,8 @@ section.resume-section .resume-section-content {
 }
 @media (min-width: 992px) {
 	section.resume-section {
-		padding:5rem 3rem 5rem 3rem;
+		padding: 5rem 3rem 5rem 3rem;
 	}
 }
+
+
