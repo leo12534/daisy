@@ -149,7 +149,7 @@
 .particle:nth-child(2) {
 	-webkit-animation: particle-animation-2 60s infinite;
 	animation: particle-animation-2 60s infinite;
-	opacity: 0.02;
+	opacity: 0.015;
 	height: 25px;
 	width: 25px;
 	-webkit-animation-delay: -0.4s;
@@ -175,7 +175,7 @@
 .particle:nth-child(3) {
 	-webkit-animation: particle-animation-3 60s infinite;
 	animation: particle-animation-3 60s infinite;
-	opacity: 0.03;
+	opacity: 0.02;
 	height: 30px;
 	width: 30px;
 	-webkit-animation-delay: -0.6s;
@@ -201,7 +201,7 @@
 .particle:nth-child(4) {
 	-webkit-animation: particle-animation-4 60s infinite;
 	animation: particle-animation-4 60s infinite;
-	opacity: 0.04;
+	opacity: 0.025;
 	height: 35px;
 	width: 35px;
 	-webkit-animation-delay: -0.8s;
@@ -227,7 +227,7 @@
 .particle:nth-child(5) {
 	-webkit-animation: particle-animation-5 60s infinite;
 	animation: particle-animation-5 60s infinite;
-	opacity: 0.05;
+	opacity: 0.03;
 	height: 40px;
 	width: 40px;
 	-webkit-animation-delay: -1s;
@@ -253,7 +253,7 @@
 .particle:nth-child(6) {
 	-webkit-animation: particle-animation-6 60s infinite;
 	animation: particle-animation-6 60s infinite;
-	opacity: 0.06;
+	opacity: 0.035;
 	height: 45px;
 	width: 45px;
 	-webkit-animation-delay: -1.2s;
@@ -279,7 +279,7 @@
 .particle:nth-child(7) {
 	-webkit-animation: particle-animation-7 60s infinite;
 	animation: particle-animation-7 60s infinite;
-	opacity: 0.07;
+	opacity: 0.04;
 	height: 50px;
 	width: 50px;
 	-webkit-animation-delay: -1.4s;
@@ -305,7 +305,7 @@
 .particle:nth-child(8) {
 	-webkit-animation: particle-animation-8 60s infinite;
 	animation: particle-animation-8 60s infinite;
-	opacity: 0.08;
+	opacity: 0.045;
 	height: 55px;
 	width: 55px;
 	-webkit-animation-delay: -1.6s;
@@ -331,7 +331,7 @@
 .particle:nth-child(9) {
 	-webkit-animation: particle-animation-9 60s infinite;
 	animation: particle-animation-9 60s infinite;
-	opacity: 0.09;
+	opacity: 0.05;
 	height: 60px;
 	width: 60px;
 	-webkit-animation-delay: -1.8s;
@@ -357,7 +357,7 @@
 .particle:nth-child(10) {
 	-webkit-animation: particle-animation-10 60s infinite;
 	animation: particle-animation-10 60s infinite;
-	opacity: 0.1;
+	opacity: 0.055;
 	height: 65px;
 	width: 65px;
 	-webkit-animation-delay: -2s;
@@ -383,7 +383,7 @@
 .particle:nth-child(11) {
 	-webkit-animation: particle-animation-11 60s infinite;
 	animation: particle-animation-11 60s infinite;
-	opacity: 0.09;
+	opacity: 0.05;
 	height: 70px;
 	width: 70px;
 	-webkit-animation-delay: -2.2s;
@@ -409,7 +409,7 @@
 .particle:nth-child(12) {
 	-webkit-animation: particle-animation-12 60s infinite;
 	animation: particle-animation-12 60s infinite;
-	opacity: 0.08;
+	opacity: 0.045;
 	height: 75px;
 	width: 75px;
 	-webkit-animation-delay: -2.4s;
@@ -435,7 +435,7 @@
 .particle:nth-child(13) {
 	-webkit-animation: particle-animation-13 60s infinite;
 	animation: particle-animation-13 60s infinite;
-	opacity: 0.07;
+	opacity: 0.04;
 	height: 80px;
 	width: 80px;
 	-webkit-animation-delay: -2.6s;
@@ -461,7 +461,7 @@
 .particle:nth-child(14) {
 	-webkit-animation: particle-animation-14 60s infinite;
 	animation: particle-animation-14 60s infinite;
-	opacity: 0.06;
+	opacity: 0.035;
 	height: 85px;
 	width: 85px;
 	-webkit-animation-delay: -2.8s;
@@ -487,7 +487,7 @@
 .particle:nth-child(15) {
 	-webkit-animation: particle-animation-15 60s infinite;
 	animation: particle-animation-15 60s infinite;
-	opacity: 0.05;
+	opacity: 0.03;
 	height: 90px;
 	width: 90px;
 	-webkit-animation-delay: -3s;
