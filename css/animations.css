@@ -105,20 +105,20 @@
 .bouncy  {
 	animation-name: bouncy;
 	animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 }
 
 .bouncy-shadow:after{
 	animation-name: bouncyShadow;
 	animation-timing-function: ease-in-out;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 }
 
 
 .social-icons .social-icon:hover {
 	animation-name: bouncy;
 	animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 }
 
 /* Experience Section Styling */

@@ -68,6 +68,8 @@ body {
 
 #sideNav {
 	background-color: #ffc94c;
+	box-shadow: 0 0 2.5rem #bbb5b08c;
+
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
