@@ -55,3 +55,4 @@ window.add
 window.addEventListener('scroll', () => {
 	scrollAppear('.copy-hide', .5, 'copy-appear', true);
 });
+

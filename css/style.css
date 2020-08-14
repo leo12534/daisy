@@ -21,6 +21,10 @@ body {
 	.text-xs-center {
 		text-align: center !important;
 	}
+
+	.d-xs-block {
+		display:block !important;
+	}
 }
 
 /* Bouncy Image Styling */
@@ -140,8 +144,19 @@ body {
 	}
 }
 
+/* About Daisy Info Deets Styling */
+#about ul  {font-size:1.25rem;  }
+#about ul li {line-height: 1.75rem;}
+
+#about ul li:not(:first-child):before { content:"•"; display:inline; width:100%; height:100%; font-size:2rem; vertical-align: middle;}
+
+@media (max-width: 768px) {
+	#about ul  {margin-left:auto; margin-right:auto; font-weight:bold;}
+	#about ul li:not(:first-child):before { content:"";}
+}
+
 /* Social Icon Styling */
-.social-icons .social-icon {
+#about .social-icons .social-icon {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -153,11 +168,15 @@ body {
 	font-size: 1.5rem;
 	margin-right: 1.5rem;
 }
-.social-icons .social-icon:last-child {
+#about .social-icons .social-icon:last-child {
 	margin-right: 0;
 }
-.social-icons .social-icon:hover {
+#about .social-icons .social-icon:hover {
 	background-color: #8a4fff;
+}
+
+@media (max-width: 768px) {
+	#about .social-icons  {margin-left:auto; margin-right:auto; font-weight:bold;}
 }
 
 .dev-icons {
