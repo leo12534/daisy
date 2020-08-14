@@ -69,7 +69,6 @@ body {
 #sideNav {
 	background-color: #ffc94c;
 	box-shadow: 0 0 2.5rem #bbb5b08c;
-
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -190,4 +189,34 @@ section.resume-section .resume-section-content {
 	}
 }
 
+/* Project Section Stylings */
+#projects .projects__container {
 
+	box-shadow: 0 0 4rem #d2bfaa;
+	border-top-left-radius: 1.25rem;
+	border-bottom-left-radius: 1.25rem;
+}
+
+#projects .projects__content-copy h2 {
+	font-size: 4rem;
+}
+
+#projects .projects__content-img .img-container {
+	border-radius: 50%;
+	box-shadow: -20px -18px 20px 20px#00000010;
+}
+
+#projects .projects__content-img .img-container figure {
+	border-radius: 50%;
+	box-shadow: 0 50px 80px rgb(60 50 80 / 61%);
+	overflow: hidden;
+}
+
+#projects .projects__content-img figure img {
+	width: 100%;
+}
+
+#projects .projects__content-img .img-container:hover img {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}

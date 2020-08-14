@@ -102,18 +102,17 @@
 
 /* Reusable Animation Classes  */
 
-.bouncy  {
+.bouncy {
 	animation-name: bouncy;
 	animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
 	animation-duration: 1.5s;
 }
 
-.bouncy-shadow:after{
+.bouncy-shadow:after {
 	animation-name: bouncyShadow;
 	animation-timing-function: ease-in-out;
 	animation-duration: 1.5s;
 }
-
 
 .social-icons .social-icon:hover {
 	animation-name: bouncy;
@@ -130,4 +129,15 @@ section.resume-section.copy-hide {
 section.resume-section.copy-appear {
 	opacity: 1;
 	transform: translateY(0);
+}
+
+/* Projects Image On Hover */
+
+#projects .projects__content-img figure img {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+
 }
